@@ -1,6 +1,6 @@
-# Bitcoin Puzzle 64 Random
+# Bitcoin Puzzle 160 Random
 # Made by Andrei Melek
-# https://github.com/Xh0st/puzzle64
+# https://github.com/DarkMeArk/puzzle64
 
 try:
     import sys
@@ -29,8 +29,8 @@ except ImportError:
     import requests
 
 def work():
-    low  = 0x8000000000000000
-    high = 0xffffffffffffffff
+    low  = 0x8000000000000000000000000000000000000000
+    high = 0xffffffffffffffffffffffffffffffffffffffff
     return str ( hex ( random.randrange( low, high ) ) )[2:]
     
 #Number of zeros to be added
