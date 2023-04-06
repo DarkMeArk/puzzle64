@@ -1,4 +1,4 @@
-# Bitcoin Puzzle 64 Random change to puzzle 160
+# Bitcoin Puzzle 64 Random change to Puzzle 160
 
 Private keys are generated randomly in keyspace 8000000000000000000000000000000000000000:ffffffffffffffffffffffffffffffffffffffff the private keys are converted into their respective public keys to address and checks their balance in real-time.
 
